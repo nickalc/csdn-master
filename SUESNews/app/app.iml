@@ -76,10 +76,11 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.1/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.7.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.7.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.7.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.7.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.9.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.9.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.9.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.9.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.9.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.github.ksoichiro/android-observablescrollview/1.5.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.jpardogo.materialtabstrip/library/1.0.8/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.umeng/fb/5.1.0/jars" />
@@ -97,31 +98,32 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 21 Platform (1)" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="imagepipeline-0.7.0" level="project" />
+    <orderEntry type="library" exported="" name="fresco-0.9.0" level="project" />
     <orderEntry type="library" exported="" name="support-v4-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="mframework" level="project" />
-    <orderEntry type="library" exported="" name="fresco-0.7.0" level="project" />
     <orderEntry type="library" exported="" name="ultra-ptr-1.0.7" level="project" />
-    <orderEntry type="library" exported="" name="fbcore-0.7.0" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-Core-2.5.8" level="project" />
     <orderEntry type="library" exported="" name="cardview-v7-21.0.2" level="project" />
     <orderEntry type="library" exported="" name="message-1.4.1" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="fbcore-0.9.0" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-QZone-2.5.8" level="project" />
     <orderEntry type="library" exported="" name="analytics-5.6.4" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-Wechat-Favorite-2.5.8" level="project" />
+    <orderEntry type="library" exported="" name="imagepipeline-0.9.0" level="project" />
     <orderEntry type="library" exported="" name="library-2.4.0" level="project" />
     <orderEntry type="library" exported="" name="android-observablescrollview-1.5.0" level="project" />
     <orderEntry type="library" exported="" name="umeng-update-v2.6.0" level="project" />
-    <orderEntry type="library" exported="" name="drawee-0.7.0" level="project" />
     <orderEntry type="library" exported="" name="material-menu-toolbar-1.5.1" level="project" />
     <orderEntry type="library" exported="" name="systembartint-1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="imagepipeline-base-0.9.0" level="project" />
     <orderEntry type="library" exported="" name="material-menu-1.5.1" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-QQ-2.5.8" level="project" />
     <orderEntry type="library" exported="" name="jsoup-1.7.3" level="project" />
     <orderEntry type="library" exported="" name="ormlite-core-4.49-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="ion-iconview-1.0.4" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-21.0.2" level="project" />
+    <orderEntry type="library" exported="" name="drawee-0.9.0" level="project" />
     <orderEntry type="library" exported="" name="ormlite-android-4.49-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="fb-5.1.0" level="project" />
     <orderEntry type="library" exported="" name="library-1.0.8" level="project" />
