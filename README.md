@@ -6,7 +6,7 @@ CSDN技术博客
 <img src="./SUESNews/screenshot/2.jpg" width="30%" height="30%">
 <img src="./SUESNews/screenshot/3.jpg" width="30%" height="30%">
 
-## 通过本项目你可以了解到
+## 通过本项目可以了解
 * 怎样使用不同的资源文件对不同版本的系统进行 **适配**
 * 怎样使用 **ORMLite** 进行数据库存储
 * 怎样符合 **MaterialDesign** 的设计规范
