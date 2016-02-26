@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    lintOptions {
+        // 防止在发布的时候出现因MissingTranslation导致Build Failed!
+        disable 'MissingTranslation'
+    }
+    compileSdkVersion 21
+    buildToolsVersion "21.0.2"
+
+    defaultConfig {
+        applicationId "com.example.lee.csdn"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 4
+        versionName "beta-1.1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:cardview-v7:21.0.2'
+    compile 'com.android.support:recyclerview-v7:21.0.2'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.github.ksoichiro:android-observablescrollview:1.5.0'
+    //下拉刷新
+    compile 'in.srain.cube:ultra-ptr:1.0.7@aar'
+    compile 'com.jpardogo.materialtabstrip:library:1.0.8'
+    compile 'com.balysv.materialmenu:material-menu-toolbar:1.5.1'
+    compile 'be.webelite:ion-iconview:1.0.4@aar'
+    compile 'com.facebook.fresco:fresco:0.7.0+'
+    //友盟统计
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    //友盟用户反馈
+    compile 'com.umeng:fb:5.1.0'
+    compile files('libs/ormlite-android-4.49-SNAPSHOT.jar')
+    compile files('libs/ShareSDK-Core-2.5.8.jar')
+    compile files('libs/ShareSDK-Email-2.5.8.jar')
+    compile files('libs/ShareSDK-Evernote-2.5.8.jar')
+    compile files('libs/ShareSDK-GooglePlus-2.5.8.jar')
+    compile files('libs/ShareSDK-QQ-2.5.8.jar')
+    compile files('libs/ShareSDK-QZone-2.5.8.jar')
+    compile files('libs/ShareSDK-ShortMessage-2.5.8.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.5.8.jar')
+    compile files('libs/ShareSDK-Wechat-2.5.8.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.5.8.jar')
+    compile files('libs/ShareSDK-Wechat-Favorite-2.5.8.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.5.8.jar')
+    compile files('libs/umeng-update-v2.6.0.jar')
+}
+repositories {
+    jcenter()
+    //友盟用户反馈
+    maven { url "https://raw.githubusercontent.com/umeng/mvn-repo-umeng/master/repository" }
+
+    maven { url 'https://github.com/MarsVard/IonIconView/raw/master/maven' }
+}
