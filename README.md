@@ -1,12 +1,10 @@
 CSDN技术博客
 ========
 业余时间开发的一个符合 Google Material Design 的CSDN技术博客
-![Demo gif 1][1] ![Demo gif 2][2]
-
-![Demo Screenshot 1][3]
-![Demo Screenshot 2][4]
-![Demo Screenshot 3][5]
-![Demo Screenshot 4][6]
+#ScreenShot
+<img src="./SUESNews/screenshot/1.jpg" width="30%" height="30%">
+<img src="./SUESNews/screenshot/2.jpg" width="30%" height="30%">
+<img src="./SUESNews/screenshot/3.jpg" width="30%" height="30%">
 
 ## 通过本项目你可以了解到
 * 怎样使用不同的资源文件对不同版本的系统进行 **适配**
@@ -39,13 +37,3 @@ CSDN技术博客
 ##关于作者
 * nick - <nickdevp@gmail.com>
 
-
-
-
-
-[1]: ./art/content.gif
-[2]: ./art/start.gif
-[3]: ./art/screenshot-1.png
-[4]: ./art/screenshot-2.png
-[5]: ./art/screenshot-3.png
-[6]: ./art/screenshot-4.png
